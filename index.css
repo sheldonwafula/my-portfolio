@@ -5,12 +5,14 @@
   padding: 0;
 }
 
-.nav-bar {
+.landing-page {
   display: flex;
+  width: 375px;
+  height: 48px;
 }
 
 .logo {
-  margin: 58px 24px 24px 24px;
+  margin: 58px 24px 28px 24px;
 }
 
 .logo a {
@@ -28,14 +30,19 @@
   text-align: center;
 }
 
-.nav-bar .menu {
+.menu {
   width: 24px;
   height: 24px;
+  align-items: flex-end;
+  justify-content: end;
   margin: 56px 32px 0 219px;
-  justify-content: flex-end;
 }
 
 .home-page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  height: 718px;
   background-image: url("images/header-shapes\ mobile.jpg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -47,9 +54,9 @@
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
-  margin: 128px 24px 12px 24px;
+  margin: 100px 24px 12px 24px;
   display: flex;
   align-items: center;
   color: #172b4d;
@@ -58,7 +65,7 @@
 .intro {
   width: 327px;
   height: 146px;
-  margin: 48px 24px 12px 24px;
+  margin: 12px 24px 6px 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +75,7 @@
 }
 
 .ctn {
-  margin: 12px 234px 12px 24px;
+  margin: 6px 234px 6px 24px;
 }
 
 .ctn a {
@@ -82,9 +89,11 @@
 }
 
 .social {
-  margin: 12px 180.8px 136px 14px;
+  margin: 6px 180.8px 136px 14px;
+  display: flex;
 }
 
-.social img {
+.social li {
   padding: 10px;
+  list-style: none;
 }
