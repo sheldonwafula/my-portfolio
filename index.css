@@ -97,3 +97,154 @@
   padding: 10px;
   list-style: none;
 }
+/* second mobile */
+
+.main-section{
+  position: relative;
+width: 100vw;
+height: 5410px;
+
+
+background: #F7F7F9;
+}
+.profile {
+  display: grid;
+  background-color: #FFFFFF;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: auto;
+  margin-top: 130px;
+}
+
+.profile h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #172B4D;
+}
+.back{
+  margin-left: -40px;
+  margin-top:4px ;
+}
+.year{
+  margin-left: -120px;
+  margin-top:4px ;
+}
+
+
+.projects {
+  padding: 24px;
+}
+
+.canopy {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 2fr);
+}
+
+.profile img {
+  width: 100%;
+}
+
+.canopy,
+.profile-body {
+  margin-top: 0.5em;
+}
+
+.canopy ul {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.canopy p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+color: #344563;
+}
+
+.canopy ul li {
+  color: #7a869a;
+}
+
+.canopy ul li,
+.canopy p {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.profile-body{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+color: #344563;
+}
+
+.languages {
+display: flex;
+margin-top: 12px;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+margin-left: -10px;
+width: 203px;
+height: 24px;
+}
+
+.languages ul{
+  display: flex;
+
+}
+
+.languages ul li {
+flex-direction: row;
+text-align: center;
+padding: 4px 12px;
+margin: 10px;
+background: #EBEBFF;
+border-radius: 8px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+list-style: none;
+color: #6070FF;
+
+}
+
+button {
+  
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 10px;
+margin-top: 14px;
+width: 124px;
+height: 48px;
+left: 0px;
+border: 1px solid #6070FF;
+border-radius: 8px;
+}
+.profile button {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+
+align-items: center;
+text-align: center;
+
+color: #396DF2;
+}
+
+
+  
+  
