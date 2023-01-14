@@ -30,9 +30,11 @@
   align-items: center;
   text-align: center;
 }
-.nav-bar{
+
+.nav-bar {
   width: 100%;
 }
+
 .menu {
   width: 100%;
   height: 24px;
@@ -78,14 +80,11 @@
   line-height: 24px;
   color: #344563;
   padding: 10px;
-  
-  
 }
 
 .ctn {
   margin: -10px 34px 6px 28px;
   padding: 5px;
-
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -93,7 +92,6 @@
   line-height: 24px;
   text-decoration: none;
   color: #7f8cff;
-  padding: 5px;
 }
 
 .social {
@@ -134,7 +132,6 @@
 
 .back {
   margin-top: 4px;
-  
 }
 
 .year {
@@ -150,7 +147,6 @@
 .canopy {
   display: grid;
   grid-template-columns: repeat(1, 1fr 2fr);
- 
 }
 
 .profile img {
@@ -165,7 +161,6 @@
 .canopy ul {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  
   justify-content: space-between;
 }
 
@@ -180,7 +175,6 @@
 
 .canopy ul li {
   color: #7a869a;
-  
 }
 
 .canopy ul li,
@@ -276,12 +270,12 @@ button {
   display: flex;
   color: #396df2;
   width: 162px;
-height: 48px;
-font-size: 17px;
-line-height: 24px;
+  height: 48px;
+  font-size: 17px;
+  line-height: 24px;
 }
 
-.resume-btn button:hover{
+.resume-btn button:hover {
   background-color: #396df2;
   color: #cfd8dc;
 }
@@ -292,8 +286,9 @@ line-height: 24px;
   align-items: center;
   padding: 0;
 }
-.language-icons ul li{
-list-style: none;
+
+.language-icons ul li {
+  list-style: none;
 }
 
 .language-section p {
