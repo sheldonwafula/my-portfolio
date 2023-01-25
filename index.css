@@ -421,10 +421,13 @@ hr {
 .contact-me {
   display: flex;
   height: 779px;
-  background-image: url("images/Contact\ me.png");
+  background-color: #396df2;
+  background-image: url("images/header-shapes-mobile2.png");
   background-size: cover;
   flex-direction: column;
   width: 100%;
+  border-top-left-radius: 80px;
+  
 }
 
 .contact h1 {
