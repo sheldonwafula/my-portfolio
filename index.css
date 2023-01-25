@@ -387,7 +387,16 @@
   margin-left: 30px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact p {
+  display: flex;
+  flex-direction: column;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -395,9 +404,11 @@
   line-height: 28px;
   width: 327px;
   height: 102px;
-  margin: 100px 24px 0 80px;
+  order: 0;
   text-align: center;
   color: #ebebff;
+  align-items: center;
+  justify-content: center;
 }
 
 .frame-works li p {
@@ -420,24 +431,28 @@ hr {
 
 .contact-me {
   display: flex;
-  height: 779px;
-  background-image: url("images/Contact\ me.png");
+  height: 800px;
+  background-color: #396df2;
+  background-image: url("images/header-shapes-mobile2.png");
   background-size: cover;
   flex-direction: column;
   width: 100%;
+  border-top-left-radius: 80px;
 }
 
 .contact h1 {
-  position: relative;
-  top: 90px;
+  display: flex;
+  align-items: center;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  align-items: center;
+  margin-bottom: 24px;
   text-align: center;
   color: #fff;
+  margin-top: 100px;
+  justify-content: center;
 }
 
 .form-section {
@@ -446,9 +461,11 @@ hr {
   margin-top: 70px;
   justify-content: center;
   align-items: center;
+  width: 327px;
 }
 
 .form-section input {
+  display: flex;
   background: #fff;
   height: 48px;
   width: 327px;
@@ -458,6 +475,7 @@ hr {
 }
 
 .form-section textarea {
+  display: flex;
   background: #fff;
   height: 170px;
   width: 327px;
@@ -465,31 +483,37 @@ hr {
   border-radius: 8px;
 }
 
-.button2 {
+#button2 {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: 150px;
   height: 48px;
   background: #ebebff;
   margin-top: 28px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  margin-left: 80px;
+  margin-left: -150px;
+}
+
+#button2 :hover {
+  background-color: #396df2;
+  color: #cfd8dc;
+  transition: 0.5s;
 }
 
 .end {
+  display: flex;
+  position: relative;
   width: 134px;
-  height: 5px;
+  height: 4px;
   align-items: center;
   color: #000;
-  display: flex;
   background: #0d151e;
   border-radius: 10px;
   justify-content: center;
   text-align: center;
-  margin: 30px auto;
+  margin: auto;
 }
