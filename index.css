@@ -386,11 +386,12 @@
 .frame-works img {
   margin-left: 30px;
 }
-.contact{
-  display:flex;
+
+.contact {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center
+  align-items: center;
 }
 
 .contact p {
@@ -437,12 +438,11 @@ hr {
   flex-direction: column;
   width: 100%;
   border-top-left-radius: 80px;
-  
 }
 
 .contact h1 {
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -497,7 +497,8 @@ hr {
   border-radius: 8px;
   margin-left: -150px;
 }
-#button2 :hover{
+
+#button2 :hover {
   background-color: #396df2;
   color: #cfd8dc;
   transition: 0.5s;
@@ -510,10 +511,9 @@ hr {
   height: 4px;
   align-items: center;
   color: #000;
-  display: flex;
   background: #0d151e;
   border-radius: 10px;
   justify-content: center;
   text-align: center;
- margin: auto;
+  margin: auto;
 }
